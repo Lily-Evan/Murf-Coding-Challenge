@@ -22,34 +22,3 @@ cd frontend
 npm install
 npm run dev
 
-📁 Project Structure
-voiceflow-ai/
-├── backend/
-│   ├── server.js
-│   ├── routes/
-│   │   ├── voice.js
-│   │   ├── ai.js
-│   │   └── user.js
-│   ├── models/
-│   │   ├── User.js
-│   │   └── Conversation.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── utils/
-│   │   └── helpers.js
-│   ├── package.json
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── VoiceRecorder.jsx
-│   │   │   ├── ChatInterface.jsx
-│   │   │   ├── ModeSelector.jsx
-│   │   │   └── SettingsPanel.jsx
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── main.jsx
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
