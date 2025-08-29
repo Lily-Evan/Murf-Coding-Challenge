@@ -1,6 +1,6 @@
 # Murf-Coding-Challenge
 
-🎉 VoiceFlow AI! I've created a comprehensive voice assistant with: 
+🎉 VoiceFlow AI!  A  comprehensive voice assistant with: 
 
 ✨ Features:
 
@@ -48,5 +48,6 @@ Set up MongoDB (local or cloud)
 Update the .env file with your credentials
 Your VoiceFlow AI is now ready with complete voice processing, multiple AI modes, and a beautiful interface! 🎉
 
-<img width="1635" height="551" alt="image" src="https://github.com/user-attachments/assets/1e0ed72c-7287-4f57-86c4-292a7fd0afb1" />
+<img width="1666" height="607" alt="image" src="https://github.com/user-attachments/assets/c02d64c7-3932-4e54-8a6b-ac807745f806" />
+
 
