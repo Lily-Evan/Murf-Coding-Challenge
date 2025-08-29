@@ -1,49 +1,51 @@
 🎙 VoiceFlow AI
 
-VoiceFlow AI is a comprehensive voice assistant platform that leverages advanced AI to provide multi-mode, real-time voice interactions. Whether it’s storytelling, coaching, translating, or casual conversation, VoiceFlow AI adapts intelligently to your needs.
+
+
+
+
+
+
+
+VoiceFlow AI is a smart voice assistant platform with multi-mode AI support. It enables storytelling, coaching, language translation, and natural conversation with real-time context awareness.
 
 ✨ Features
 
-Smart Mode Detection – Automatically switches between:
+Smart Mode Detection: Automatically switches between modes:
 
-StoryTeller – Narrates stories dynamically
+StoryTeller – Dynamic storytelling
 
-VoxCoach – Provides coaching and guidance
+VoxCoach – Coaching & guidance
 
-VoxBridge – Translates or connects conversations across languages
+VoxBridge – Translating & bridging conversations
 
-TalkMate – General-purpose AI chat
+TalkMate – General AI chat
 
-Advanced Voice Processing – High-quality speech-to-text and text-to-speech support
+Advanced Voice Processing: Speech-to-text and text-to-speech
 
-Multi-language Support – Converse naturally in multiple languages
+Multi-language Support – Converse in multiple languages
 
-Real-time Conversations – Context-aware dialogue for smooth interactions
+Real-time Conversations: Maintains context-aware dialogue
 
 🛠 Tech Stack
 
-Backend: Node.js + Express + Google AI integration
+Backend: Node.js + Express + Google AI
 
-Frontend: React + Vite with modern voice UI
+Frontend: React + Vite
 
-Database: MongoDB for conversation storage
+Database: MongoDB
 
 APIs: Google Speech-to-Text, Text-to-Speech, Gemini AI
 
-🚀 Getting Started
-1. Backend Setup
-# Navigate to project directory
+🚀 Installation
+Backend
 mkdir voiceflow-ai && cd voiceflow-ai
 mkdir backend && cd backend
-
-# Initialize Node project
 npm init -y
-
-# Install dependencies
 npm install express cors dotenv mongoose multer @google/generative-ai
 
 
-Copy backend code files into backend/
+Copy backend code files
 
 Duplicate .env.example → .env and add your API keys
 
@@ -51,32 +53,27 @@ Start the backend server:
 
 npm run dev
 
-2. Frontend Setup
+Frontend
 cd ../
 mkdir frontend && cd frontend
-
-# Create React + Vite project
 npm create vite@latest . -- --template react
-
-# Install dependencies
 npm install axios lucide-react
 
 
-Copy frontend code files into frontend/
+Copy frontend code files
 
 Start the frontend server:
 
 npm run dev
 
-3. Environment Configuration
+⚙️ Environment Variables
 
-Google AI Studio: Obtain a Gemini API key
+Create a .env file in backend/:
 
-MongoDB: Set up a local or cloud instance
-
-Add your credentials to the .env file
-
-Your VoiceFlow AI is now ready to run with full voice capabilities, multiple AI modes, and a clean interface! 🎉
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+GOOGLE_API_KEY=your_google_api_key
+GEMINI_API_KEY=your_gemini_api_key
 
 📂 Folder Structure
 voiceflow-ai/
@@ -95,22 +92,13 @@ voiceflow-ai/
 │  └─ package.json
 └─ README.md
 
-🔑 Environment Variables
-
-Example .env:
-
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-GOOGLE_API_KEY=your_google_api_key
-GEMINI_API_KEY=your_gemini_api_key
-
 💡 Tips
 
-Ensure backend is running before starting frontend
+Start the backend before the frontend
 
-For multi-language support, configure the Google Speech API accordingly
+Keep .env private and secure
 
-Keep .env secure — never commit API keys
+Configure Google APIs for multi-language support
 
 <img width="1666" height="607" alt="image" src="https://github.com/user-attachments/assets/c02d64c7-3932-4e54-8a6b-ac807745f806" />
 
